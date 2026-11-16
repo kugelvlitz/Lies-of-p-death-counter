@@ -1,0 +1,11 @@
+{
+  "save_dir": "/home/YOUR_USER/.local/share/Steam/steamapps/common/Lies of P/LiesofP/Saved/SaveGames/YOUR_SAVE_ID",
+  "character_slot": 1,
+  "poll_seconds": 1,
+  "webhook_url": "PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE",
+  "tracking": {
+    "section_override": null,
+    "boss_override": null,
+    "location_labels": {}
+  }
+}

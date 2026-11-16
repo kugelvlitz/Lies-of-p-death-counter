@@ -1,0 +1,15 @@
+[Unit]
+Description=Lies of P Discord death counter
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+WorkingDirectory=%h/Documents/lop_bot
+ExecStart=/usr/bin/python3 -u %h/Documents/lop_bot/lop_bot.py --config %h/Documents/lop_bot/config.json
+Restart=on-failure
+RestartSec=10
+UMask=0077
+
+[Install]
+WantedBy=default.target
